@@ -1,0 +1,44 @@
+{
+	"auto_upgrade_last_run": null,
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AngularJS",
+		"AutoWrap",
+		"BracketHighlighter",
+		"BufferScroll",
+		"CMake",
+		"Dictionaries",
+		"DocBlockr",
+		"Emmet",
+		"Git",
+		"GitGutter",
+		"Github Tools",
+		"JavaScriptNext - ES6 Syntax",
+		"Jinja2",
+		"Keymaps",
+		"LaTeXTools",
+		"LESS",
+		"Less2Css",
+		"Mako",
+		"Markdown Preview",
+		"MarkdownEditing",
+		"Monokai Extended",
+		"Package Control",
+		"Pandoc",
+		"Paste PDF Text Block",
+		"PlainTasks",
+		"Puppet",
+		"SCSS",
+		"SideBarEnhancements",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"SublimeLinter-contrib-eslint",
+		"SublimeLinter-contrib-sass-lint",
+		"SublimeLinter-flake8",
+		"Theme - SoDaReloaded"
+	]
+}

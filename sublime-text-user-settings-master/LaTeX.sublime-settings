@@ -1,0 +1,10 @@
+{
+    // Writing documents feels better over white backgrounds
+    "color_scheme": "Packages/User/Espresso Soda.tmTheme",
+
+    // Better font for LaTeX - Allows italics and bold!
+    "font_face": "Menlo",
+
+    // Grammar nazi mode
+    "spell_check": true
+}
