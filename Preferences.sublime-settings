@@ -1,0 +1,59 @@
+{
+	"auto_complete_commit_on_tab": true,
+	"binary_file_patterns":
+	[
+		"*.dds",
+		"*.eot",
+		"*.gif",
+		"*.ico",
+		"*.jar",
+		"*.jpeg",
+		"*.jpg",
+		"*.pdf",
+		"*.png",
+		"*.swf",
+		"*.tga",
+		"*.ttf",
+		"*.zip",
+		"/C/Users/mroyer/Documents/Dev/Ruby/Web/Sinatra/PerformanceWebsocketOverhaul/Ruby/node_modules/**"
+	],
+	"bold_folder_labels": true,
+	"caret_style": "wide",
+	"color_inactive_tabs": true,
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"create_window_at_startup": false,
+	"ensure_newline_at_eof_on_save": true,
+	"folder_exclude_patterns":
+	[
+		"node_modules",
+		".svn"
+	],
+	"font_size": 8,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"hot_exit": false,
+	"ignored_packages":
+	[
+	],
+	"index_exclude_patterns":
+	[
+		"*.log",
+		"C:\\Users\\mroyer\\Documents\\Dev\\Python\\Web\\blog\\flask*"
+	],
+	"line_padding_bottom": 2.5,
+	"line_padding_top": 2.5,
+	"open_files_in_new_window": true,
+	"remember_open_files": false,
+	"ruler":
+	[
+		80
+	],
+	"show_minimap": false,
+	"status_bar_brighter": true,
+	"tab_size": 2,
+	"tabs_small": true,
+	"theme": "Afterglow-green.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"vintage_start_in_command_mode": true
+}

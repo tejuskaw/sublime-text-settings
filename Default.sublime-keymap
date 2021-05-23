@@ -1,0 +1,98 @@
+[
+  // Implement custom "super" key that doesn't remove actual super key.
+  // In this case, I use a comma.
+  // It's easier to move around my open windows with these settings.
+  { "keys": [",","a"], "command": "alignment", "context": [{ "key": "setting.command_mode", "operand": true}] },
+
+  // Console current project directory
+  {"keys": [",","c"], "command": "cmd", "context": [{ "key": "setting.command_mode", "operand": true}] },
+
+  // Sort lines
+  { "keys": [",","s","o"], "command": "sort_lines", "args": {"case_sensitive": false}, "context": [{ "key": "setting.command_mode", "operand": true}] },
+
+  // Build
+  { "keys": [",","b"], "command": "build", "context": [{ "key": "setting.command_mode", "operand": true}]  },
+
+  // Cancel Build
+  { "keys": [",","z"], "command": "exec", "args": {"kill": true}, "context": [{ "key": "setting.command_mode", "operand": true}] },
+
+  // Spell Check
+  { "keys": [",","s","p"], "command": "toggle_setting", "args": {"setting": "spell_check"} },
+
+  // Transpose characters
+  { "keys": [",","t"], "command": "transpose", "context": [{ "key": "setting.command_mode", "operand": true}]  },
+
+  // Swap line up
+  { "keys": [",","k"], "command": "swap_line_up", "context": [{ "key": "setting.command_mode", "operand": true}]  },
+
+  // Swap line down
+  { "keys": [",","j"], "command": "swap_line_down", "context": [{ "key": "setting.command_mode", "operand": true}]  },
+
+  // Toggle Side Bar
+  { "keys": [",", "d"], "command": "toggle_side_bar", "context": [{ "key": "setting.command_mode", "operand": true}] },
+
+  // Show files
+  { "keys": [",","p"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true}, "context": [{ "key": "setting.command_mode", "operand": true}] },
+
+  // Command palette
+  { "keys": [",","o","p"], "command": "show_overlay", "args": {"overlay": "command_palette"}, "context": [{ "key": "setting.command_mode", "operand": true}] },
+
+  // Goto
+  { "keys": [",", "r"], "command": "show_overlay", "args": {"overlay": "goto", "text": "@"}, "context": [{ "key": "setting.command_mode", "operand": true}]  },
+
+  // Create new file/directory
+  { "keys": ["n", "n"], "command": "advanced_new_file", "context": [{ "key": "setting.command_mode", "operand": true}]},
+
+  // Select Project
+  { "keys": [",",",","p"], "command": "prompt_select_workspace", "context": [{ "key": "setting.command_mode", "operand": true}]  },
+
+  // Makes the window only have 1 pane
+  { "keys": [",","1"], "command": "set_layout", "args": {"cols": [0.0, 1.0], "rows": [0.0, 1.0], "cells": [[0, 0, 1, 1]] }, "context": [{ "key": "setting.command_mode", "operand": true}]},
+
+  // Creates a pane to the right
+  { "keys": [",","2"], "command": "set_layout", "args": { "cols": [0.0, 0.5, 1.0], "rows": [0.0, 1.0], "cells": [[0, 0, 1, 1], [1, 0, 2, 1]] }, "context": [{ "key": "setting.command_mode", "operand": true}]},
+
+  // Creates 3 panes
+  { "keys": [",","3"], "command": "set_layout", "args": { "cols": [0.0, 0.33, 0.66, 1.0], "rows": [0.0, 1.0], "cells": [[0, 0, 1, 1], [1, 0, 2, 1], [2, 0, 3, 1]] }, "context": [{ "key": "setting.command_mode", "operand": true}] },
+
+  // Moves you to the left pane
+  { "keys": [",","h"], "command": "focus_group", "args": { "group": 0 }, "context": [{ "key": "setting.command_mode", "operand": true}]},
+
+  // Moves you to the right pane
+  { "keys": [",","l"], "command": "focus_group", "args": { "group": 1 }, "context": [{ "key": "setting.command_mode", "operand": true}]},
+
+  // Moves the current file to the left pane
+  { "keys": [",","m","h"], "command": "move_to_group", "args": { "group": 0 }, "context": [{ "key": "setting.command_mode", "operand": true}]  },
+
+  // Moves the current file to the right pane
+  { "keys": [",","m","l"], "command": "move_to_group", "args": { "group": 1 }, "context": [{ "key": "setting.command_mode", "operand": true}]  },
+
+  // Closes the current window
+  { "keys": [",","x"], "command": "close", "context": [{ "key": "setting.command_mode", "operand": true}]  },
+
+  // Fold current
+  { "keys": [",","f","c"], "command": "fold", "context": [{ "key": "setting.command_mode", "operand": true}]  },
+
+  // Unfold current
+  { "keys": [",","u","c"], "command": "unfold", "context": [{ "key": "setting.command_mode", "operand": true}]  },
+
+  // Fold all
+  { "keys": [",","f","a"], "command": "fold_by_level", "args": {"level": 1}, "context": [{ "key": "setting.command_mode", "operand": true}] },
+
+  // Unfold all
+  { "keys": [",","u","a"], "command": "unfold_all", "context": [{ "key": "setting.command_mode", "operand": true}] },
+
+  // Split selection into lines
+  { "keys": [",","w"], "command": "split_selection_into_lines", "context": [{ "key": "setting.command_mode", "operand": true}]},
+
+  // For quick file open plugin (awesome!!!)
+  { "keys": [",","q","p"], "command": "quick_file_open", "context": [{ "key": "setting.command_mode", "operand": true}] },
+
+  // Diff files side by side (two column layout)
+  { "keys": [",",",","d"], "command": "diffy", "context": [{ "key": "setting.command_mode", "operand": true}] },
+
+  // Stop diffing the files
+  { "keys": [",",",","s"], "command": "diffy", "args": {"action": "clear"}, "context": [{ "key": "setting.command_mode", "operand": true}] },
+
+  { "keys": [",",",","g"], "command": "goto_definition", "context": [{ "key": "setting.command_mode", "operand": true}] }
+]
